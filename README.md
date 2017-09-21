@@ -1,0 +1,3 @@
+# IQKeyboardManagerBug
+IQKeyboardManagerBug
+在scrollView上面添加了一个scrollView，再在第二个ScrollView上面添加textfield，弹出键盘的时候有问题
