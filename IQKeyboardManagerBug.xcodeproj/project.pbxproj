@@ -15,6 +15,9 @@
 		05F4B7C21F73CFF8001B5241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05F4B7C01F73CFF8001B5241 /* LaunchScreen.storyboard */; };
 		05F4B7CD1F73CFF8001B5241 /* IQKeyboardManagerBugTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F4B7CC1F73CFF8001B5241 /* IQKeyboardManagerBugTests.m */; };
 		05F4B7D81F73CFF8001B5241 /* IQKeyboardManagerBugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F4B7D71F73CFF8001B5241 /* IQKeyboardManagerBugUITests.m */; };
+		0AD12F4B588D65333BCAE562 /* libPods-IQKeyboardManagerBug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E1841DE5522ABD2022A79 /* libPods-IQKeyboardManagerBug.a */; };
+		4A9D8C82316CB8DE035118A7 /* libPods-IQKeyboardManagerBugTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1148EBBA6C23F10B3479F464 /* libPods-IQKeyboardManagerBugTests.a */; };
+		8BD130CF8DBE04EECA9253A8 /* libPods-IQKeyboardManagerBugUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BF2B486170075C875E32DC4 /* libPods-IQKeyboardManagerBugUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		05F4B7D31F73CFF8001B5241 /* IQKeyboardManagerBugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IQKeyboardManagerBugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05F4B7D71F73CFF8001B5241 /* IQKeyboardManagerBugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManagerBugUITests.m; sourceTree = "<group>"; };
 		05F4B7D91F73CFF8001B5241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1148EBBA6C23F10B3479F464 /* libPods-IQKeyboardManagerBugTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IQKeyboardManagerBugTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16E9B50B1513D9514A828D20 /* Pods-IQKeyboardManagerBugTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboardManagerBugTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyboardManagerBugTests/Pods-IQKeyboardManagerBugTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D6D37E7C538CD796DF72CF3 /* Pods-IQKeyboardManagerBugUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboardManagerBugUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyboardManagerBugUITests/Pods-IQKeyboardManagerBugUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BF2B486170075C875E32DC4 /* libPods-IQKeyboardManagerBugUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IQKeyboardManagerBugUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C75846BD49DD0AB8A2C213 /* Pods-IQKeyboardManagerBugTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboardManagerBugTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyboardManagerBugTests/Pods-IQKeyboardManagerBugTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACC172C2C82BE46D73593D3A /* Pods-IQKeyboardManagerBugUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboardManagerBugUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyboardManagerBugUITests/Pods-IQKeyboardManagerBugUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C44E1841DE5522ABD2022A79 /* libPods-IQKeyboardManagerBug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IQKeyboardManagerBug.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D673FF45BF6A0D65A1BD3D5C /* Pods-IQKeyboardManagerBug.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboardManagerBug.release.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyboardManagerBug/Pods-IQKeyboardManagerBug.release.xcconfig"; sourceTree = "<group>"; };
+		DC70EEAC7F1EA86095A44E6E /* Pods-IQKeyboardManagerBug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IQKeyboardManagerBug.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IQKeyboardManagerBug/Pods-IQKeyboardManagerBug.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD12F4B588D65333BCAE562 /* libPods-IQKeyboardManagerBug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A9D8C82316CB8DE035118A7 /* libPods-IQKeyboardManagerBugTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BD130CF8DBE04EECA9253A8 /* libPods-IQKeyboardManagerBugUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				05F4B7CB1F73CFF8001B5241 /* IQKeyboardManagerBugTests */,
 				05F4B7D61F73CFF8001B5241 /* IQKeyboardManagerBugUITests */,
 				05F4B7B01F73CFF8001B5241 /* Products */,
+				EC9780A54154063AC52EC057 /* Pods */,
+				128AAA2A52CFC6949E77C6EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = IQKeyboardManagerBugUITests;
 			sourceTree = "<group>";
 		};
+		128AAA2A52CFC6949E77C6EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C44E1841DE5522ABD2022A79 /* libPods-IQKeyboardManagerBug.a */,
+				1148EBBA6C23F10B3479F464 /* libPods-IQKeyboardManagerBugTests.a */,
+				5BF2B486170075C875E32DC4 /* libPods-IQKeyboardManagerBugUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC9780A54154063AC52EC057 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC70EEAC7F1EA86095A44E6E /* Pods-IQKeyboardManagerBug.debug.xcconfig */,
+				D673FF45BF6A0D65A1BD3D5C /* Pods-IQKeyboardManagerBug.release.xcconfig */,
+				16E9B50B1513D9514A828D20 /* Pods-IQKeyboardManagerBugTests.debug.xcconfig */,
+				66C75846BD49DD0AB8A2C213 /* Pods-IQKeyboardManagerBugTests.release.xcconfig */,
+				3D6D37E7C538CD796DF72CF3 /* Pods-IQKeyboardManagerBugUITests.debug.xcconfig */,
+				ACC172C2C82BE46D73593D3A /* Pods-IQKeyboardManagerBugUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05F4B7DC1F73CFF8001B5241 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerBug" */;
 			buildPhases = (
+				E2C40202E1518F399E99DEEE /* [CP] Check Pods Manifest.lock */,
 				05F4B7AB1F73CFF8001B5241 /* Sources */,
 				05F4B7AC1F73CFF8001B5241 /* Frameworks */,
 				05F4B7AD1F73CFF8001B5241 /* Resources */,
+				0DD755B3B361D8F9186A4B6D /* [CP] Embed Pods Frameworks */,
+				FED27C49F52DF8B5B13AA2D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05F4B7DF1F73CFF8001B5241 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerBugTests" */;
 			buildPhases = (
+				9B468C8CEE0AA427F47B588B /* [CP] Check Pods Manifest.lock */,
 				05F4B7C41F73CFF8001B5241 /* Sources */,
 				05F4B7C51F73CFF8001B5241 /* Frameworks */,
 				05F4B7C61F73CFF8001B5241 /* Resources */,
+				2678EE1CCF0C2FF70BB546E7 /* [CP] Embed Pods Frameworks */,
+				C8A087A7923779F8A51068A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05F4B7E21F73CFF8001B5241 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerBugUITests" */;
 			buildPhases = (
+				6CE0843C4985A347AA9B0B7F /* [CP] Check Pods Manifest.lock */,
 				05F4B7CF1F73CFF8001B5241 /* Sources */,
 				05F4B7D01F73CFF8001B5241 /* Frameworks */,
 				05F4B7D11F73CFF8001B5241 /* Resources */,
+				BA9C42F1C289D49EA65CE8F4 /* [CP] Embed Pods Frameworks */,
+				E219EB47ECF73FF43414BF32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +319,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DD755B3B361D8F9186A4B6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboardManagerBug/Pods-IQKeyboardManagerBug-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2678EE1CCF0C2FF70BB546E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboardManagerBugTests/Pods-IQKeyboardManagerBugTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CE0843C4985A347AA9B0B7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQKeyboardManagerBugUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B468C8CEE0AA427F47B588B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQKeyboardManagerBugTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA9C42F1C289D49EA65CE8F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboardManagerBugUITests/Pods-IQKeyboardManagerBugUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A087A7923779F8A51068A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboardManagerBugTests/Pods-IQKeyboardManagerBugTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E219EB47ECF73FF43414BF32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboardManagerBugUITests/Pods-IQKeyboardManagerBugUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C40202E1518F399E99DEEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IQKeyboardManagerBug-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED27C49F52DF8B5B13AA2D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboardManagerBug/Pods-IQKeyboardManagerBug-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IQKeyboardManagerBug/Pods-IQKeyboardManagerBug-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		05F4B7AB1F73CFF8001B5241 /* Sources */ = {
@@ -425,6 +624,7 @@
 		};
 		05F4B7DD1F73CFF8001B5241 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC70EEAC7F1EA86095A44E6E /* Pods-IQKeyboardManagerBug.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8M8Y7973D3;
@@ -437,6 +637,7 @@
 		};
 		05F4B7DE1F73CFF8001B5241 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D673FF45BF6A0D65A1BD3D5C /* Pods-IQKeyboardManagerBug.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8M8Y7973D3;
@@ -449,6 +650,7 @@
 		};
 		05F4B7E01F73CFF8001B5241 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E9B50B1513D9514A828D20 /* Pods-IQKeyboardManagerBugTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8M8Y7973D3;
@@ -462,6 +664,7 @@
 		};
 		05F4B7E11F73CFF8001B5241 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66C75846BD49DD0AB8A2C213 /* Pods-IQKeyboardManagerBugTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 8M8Y7973D3;
@@ -475,6 +678,7 @@
 		};
 		05F4B7E31F73CFF8001B5241 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D6D37E7C538CD796DF72CF3 /* Pods-IQKeyboardManagerBugUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8M8Y7973D3;
 				INFOPLIST_FILE = IQKeyboardManagerBugUITests/Info.plist;
@@ -487,6 +691,7 @@
 		};
 		05F4B7E41F73CFF8001B5241 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACC172C2C82BE46D73593D3A /* Pods-IQKeyboardManagerBugUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 8M8Y7973D3;
 				INFOPLIST_FILE = IQKeyboardManagerBugUITests/Info.plist;

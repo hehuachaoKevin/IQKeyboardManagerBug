@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "IQKeyboardManager.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //IQKeyboardManager open
+    [IQKeyboardManager sharedManager].enable = YES;
+    [IQKeyboardManager sharedManager].enableDebugging = YES;
+    [IQKeyboardManager sharedManager].enableAutoToolbar = YES;
+    [IQKeyboardManager sharedManager].shouldResignOnTouchOutside = YES;
     return YES;
 }
 
